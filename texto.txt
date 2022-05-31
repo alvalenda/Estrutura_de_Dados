@@ -1,0 +1,22 @@
+Comando de secção de múltipla escolha:
+
+	O comando switch é uma estrutura composta por subcomandos (CASE DEFAULT), que simplifica o programa quando for necessário usar comandos de decisão de múltiplos blocos.
+	A expressão de controle (condição) deve ser do tipo int ou do tipo char. O resultado dessa expressão é comparado ao valor de cada um dos rótulos CASE e os comandos são executados caso o resultado satisfaça o valor. O comando BREAK deve ser usado para finalizar cada bloco. O rótulo DEFAULT pode ser usado se for necessário incluir um bloco para ser executado caso o resultado não satisfaça nenhum case.
+	Sintaxe:
+		switch (<condição>)
+		{
+		case	<valor1>;
+			<bloco de código1>
+			break;
+		case2	<valor2>;
+			<bloco de código2>
+			break;
+		...
+		case 	<valorn>;
+			<bloco de códigon>
+			break;
+		default:
+			<blocl de código>;
+		}
+		
+	Onde: valor 1... valor n são constantes. Inteiras ou char (1 caractere); Bloco de código 1 e bloco de código n são conjuntos de instruções. O uso do comando BREAK forçará a saída do comando switch e a execução do próximo comando do programa (após a cahve fechando o switch).
