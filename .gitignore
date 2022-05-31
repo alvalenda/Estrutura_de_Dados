@@ -52,4 +52,8 @@ Mkfile.old
 dkms.conf
 
 #
+<<<<<<< HEAD
 *.c~
+=======
+*.c~
+>>>>>>> 78a08d39e5acef6e3614b8e85822a0db0f7f7d25

@@ -19,4 +19,4 @@ Comando de secção de múltipla escolha:
 			<blocl de código>;
 		}
 		
-	Onde: valor 1... valor n são constantes. Inteiras ou char (1 caractere); Bloco de código 1 e bloco de código n são conjuntos de instruções. O uso do comando BREAK forçará a saída do comando switch e a execução do próximo comando do programa (após a cahve fechando o switch).
+	Onde: valor 1... valor n são constantes. Inteiras ou char (1 caractere); Bloco de código 1 e bloco de código n são conjuntos de instruções. O uso do comando BREAK forçará a saída do comando switch e a execução do próximo comando do programa (após a chave fechando o switch).
